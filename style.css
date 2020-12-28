@@ -1,0 +1,669 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.first{
+    background: url('img/background.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 1px solid #00CBFF;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    background-color: rgb(0,0,0,0.4);
+    width: 100%;
+}
+
+.logo{
+    padding: 25px 0px 0 100px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    font-family: 'droidsans bold';
+    position: relative;
+}
+
+.logo span{
+    color: #00CBFF;
+}
+
+.logo img{
+    position: absolute;
+    right: 55.2px;
+    top: -8px;
+}
+
+.menu{
+    display: flex;
+    padding: 0 0 0 15%;
+}
+
+.asd{
+    padding: 40px 13px;
+    transition: .3s;
+}
+
+.asd a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Droidsans';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13pt;
+    transition: .3s;
+}
+
+.top{
+    border-top: 3px solid #00CBFF;
+}
+
+a.active{
+    color: #00CBFF;
+}
+
+.asd:hover{
+    border-top: 3px solid #00CBFF;
+}
+
+.asd:hover a{
+    color: #00CBFF;
+}
+
+a.left, .right{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(75, 202, 255);
+    padding: 4px 19px;
+    font-size: 40px;
+    top: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+}
+
+a.right{
+    left: 95%;
+}
+
+a.left{
+    left: 25px;
+    background: #00374B;
+    color: white;
+}
+
+.info{
+    width: 687px;
+    margin: 160px 570px 0;
+    color: white;
+    padding: 0 30px;
+}
+
+.info h1{
+    font-family: 'Lato light';
+    font-size: 40px;
+}
+
+.info p{
+    font-size: 18px;
+    font-family: 'Lato light';
+    margin-top: 20px;
+}
+
+.download{
+    margin-top: 50px;
+}
+
+.download a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato Bold';
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background: #00CBFF;
+}
+
+a.down{
+    border: 2px solid white;
+    background: none;
+    margin-right: 30px;
+    animation: name .5s linear infinite;
+}
+
+@keyframes name{
+    0%{
+        background: none;
+    }
+
+    100%{
+        background: crimson;
+    }
+}
+
+.app{
+    margin-top: 55px;
+    display: flex;
+}
+
+.app p{
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.app i{
+    display: inline;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #333333;
+    padding: 10px 0;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+i.fa-apple{
+    color: #00CBFF;
+}
+
+i.fa-android{
+    color: #9FC037;
+}
+
+.app i:hover{
+    background: gray;
+}
+
+.dot{
+    padding: 10px;
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    right: 50%;
+}
+
+.dots{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+.dots:hover{
+    background: #00cbff;
+}
+
+.dot1{
+    background: #00CBFF;
+    position: relative;
+}
+
+.summary{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f9f9f9;
+    height: 580px;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+}
+
+.summarise{
+    padding: 30px 0;
+}
+
+.summarise h1{
+    font-family: 'Lato black';
+    font-size: 48px;
+}
+
+.summarise p{
+    font-family: 'Lato light';
+    font-size: 20pt;
+}
+
+.radius{
+    padding: 10px;
+    margin: 50px 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elements{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 20%;
+    margin-left: 50px;
+}
+
+.border{
+    height: 150px;
+    margin-left: 50px;
+    width: 150px;
+    border-radius: 50%;
+    background: #00CBFF;
+}
+
+.border svg{
+    margin-top: 40px;
+}
+
+.multi{
+    background: #3F3E40;
+}
+
+.tekst{
+    margin-top: 15px;
+}
+
+.tekst h1{
+    font-family: 'Lato black';
+    font-size: 15pt;
+    color: #414042;
+    margin-bottom: 10px;
+}
+
+.tekst p{
+    font-family: 'Lato light';
+    font-size: 13pt;
+    color: #838383;
+}
+
+.gallery{
+    padding: 50px 0 0 0;
+}
+
+.gl{
+    text-align: center;
+}
+
+.gl h1{
+    font-family: 'Lato black';
+    font-size: 36pt;
+    color: #414042;
+}
+
+.gl p{
+    font-family: 'Lato light';
+    font-size: 20pt;
+    color: #414042;
+}
+
+
+.screen{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.screenshots{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 20%;
+}
+
+.scren{
+    width: 300px;
+    height: 210px;
+    background: black;
+    border-radius: 10px;
+}
+
+.scren img{
+    width: 100%;
+    height: 100%;
+}
+
+.scren p{
+    font-family: 'Lato black';
+    position: relative;
+    top: -35px;
+    left: 65px;
+    font-size: 15pt;
+    color: #4bcaff;
+}
+
+p.p{
+    color: #838383;
+    font-family: 'Lato light';
+    font-size: 13pt;
+    margin: 20px 35px;
+    position: relative;
+    left: -20px;
+    text-align: center;
+}
+
+.video{
+    margin-top: 100px;
+    height: 1640px;
+}
+
+.action{
+    height: 550px;
+    background: url('img/back.png') no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.play{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+    text-align: center;
+    color: white;
+}
+
+.play i{
+    font-size: 90px;
+    color: white;
+}
+
+.play h1{
+    font-family: 'Lato light';
+    font-size: 48pt;
+    font-weight: normal;
+}
+
+.play b{
+    font-family: 'lato light';
+    font-weight: 900;
+}
+
+.play p{
+    font-family: 'lato light';
+    font-size: 18pt;
+    margin: 10px 222px;
+}
+
+.tariff{
+    height: 710px;
+    margin-top: -30px;
+}
+
+.infoo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.infoo h1{
+    font-family: 'Lato black';
+    font-size: 36pt;
+    color: #414042;
+}
+
+.infoo p{
+    font-family: 'lato light';
+    font-size: 20pt;
+    color: #414042;
+}
+
+.prices{
+    display: flex;
+    padding: 10px 70px;
+    margin: 70px 70px 0;
+    flex-wrap: wrap;
+}
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    background: #f9f9f9;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    width: 301px;
+    height: 420px;
+    text-align: center;
+    margin-left: 55px;
+    transition: .3s;
+}
+
+.content span{
+    color: #d7d7d7;
+    font-size: 17pt;
+    font-family: 'lato black';
+    padding-top: 30px;
+}
+
+.content h1{
+    background: #76C565;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'lato black';
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50pt;
+}
+
+.content p{
+    color: #d7d7d7;
+    font-size: 18pt;
+    margin: 10px 0;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    font-family: 'lato black';
+    font-weight: normal;
+    width: 172px;
+    padding: 12px 0;
+    height: 50px;
+    margin: 20px 0 0 60px;
+    font-size: 15pt;
+    background: #76C565;
+}
+
+.blue{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 0 10px rgba(0,0,0,0.1);
+}
+
+.blue span{
+    color: #4bcaff;
+}
+
+.blue h1{
+    background: #00CBFF;
+}
+
+.blue a{
+    background: #00cbff;
+}
+
+.orange h1{
+    background: #FF7D00;
+}
+
+.orange a{
+    background: #FF7D00;
+}
+
+.content:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonials{
+    height: 380px;
+    background: #F9F9F9;
+}
+
+.tt{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tt h1{
+    color: #414042;
+    font-family: 'Lato black';
+    font-size: 36pt;
+}
+
+.tt p{
+    font-family: 'lato bold';
+    font-size: 14pt;
+    margin: 40px 445px 0;
+    text-align: right;
+    color: #4bcaff;
+    font-weight: 600;
+    position: relative;
+    left: 10%
+}
+
+.testimonials svg{
+    position: relative;
+    top: -45%;
+    left: 30%;
+}
+
+.doun{
+    background: #3F3E40;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doun h1{
+    font-family: 'lato black';
+    font-size: 55pt;
+    color: white;
+}
+
+.doun a{
+    text-decoration: none;
+    color: #414042;
+    font-family: 'Lato black';
+    font-size: 15pt;
+    background: #00CBFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.map{
+    height: 685px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    background: url('img/Map.png') no-repeat;
+}
+
+.contact{
+    width: 324px;
+    height: 463px;
+    background-color: rgba(75, 202, 255, 0.8);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1{
+    margin-top: 20px;
+    font-family: "lato";
+    color: white;
+    margin-bottom: 10px;
+    font-size: 25pt;
+}
+
+.contact ::placeholder{
+    text-align: center;
+    font-family: arial;
+    color: #d3d3d3;
+}
+
+
+.contact input[type="text"], [type="email"]{
+    border: 0;
+    width: 272px;
+    height: 35px;
+    padding: 0 7px;
+    margin-top: 15px;
+    outline: none;
+    border-radius: 4px;
+}
+
+.contact textarea{
+    width: 270px;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px 7px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.contact input[type="submit"]{
+    text-decoration: none;
+    color: #72b3cc;
+    font-family: 'lato';
+    font-size: 15pt;
+    background: #3F3E40;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 77px;
+}
+
+.footer{
+    background: #3F3E40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    margin-top: -3px;
+    color: white;
+    font-size: 14px;
+    font-family: 'lato regular';
+}
+
+.footer p{
+    margin: 0 60px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topp{
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px;
+    font-size: 30px;
+    position: sticky;
+    margin-left: 96%;
+    top: 20%;
+}
+
+.topp a{
+    text-decoration: none;
+    color: white;
+}
